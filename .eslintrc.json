@@ -1,6 +1,7 @@
 {
     "env": {
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -41,7 +42,9 @@
           "ts": "never",
           "tsx": "never"
         }
-      ]
+      ],
+      "camelcase":"off",
+      "import/no-duplicates": "off"
     },
     "settings": {
       "import/resolver": {
